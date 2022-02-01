@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+        int[] array1 = {1,2,3,4,5};
+        System.out.println( "Verilen Dizi'nin harmonik ortalaması : " + harmanikOrt(array1));
+    }
+
+    static double harmanikOrt(int[] array ) {
+        double total = 0 ;
+        for(int i : array) {
+            total += ( 1.0 / i ) ;
+        }
+        return total ;
+    }
+
+
+}
